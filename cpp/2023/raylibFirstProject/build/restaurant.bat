@@ -1,0 +1,1 @@
+ResourceHacker -open ./Game.exe -resource ./resources.res -action add -save ./Game.exe
