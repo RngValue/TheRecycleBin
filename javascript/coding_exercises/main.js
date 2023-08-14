@@ -15,6 +15,6 @@ function boomerangs(a) {
     return numberOfBoomerangs;
 }
 
-console.log(String(less_than_hundret(numberOne,numberTwo)));
+console.log(String(less_than_hundret(10,15)));
 console.log(seven_boom([1,2,3,4,5,6]));
 console.log(String(boomerangs([2,1,2,1,2,1,2,1])));
