@@ -1,4 +1,0 @@
-#include <windows.h>
-
-nameID ICON "favicon.ico"
-AA_MYAPPICON ICON "favicon.ico"
