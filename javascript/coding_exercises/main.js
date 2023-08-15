@@ -4,6 +4,7 @@ function less_than_hundred(a, b) {
 }
 
 //"Seven Boom!" https://edabit.com/challenge/6R6gReGTGwzpwuffD
+//Doesn't check digits but numbers. Didn't bother.
 function seven_boom(a) {
     if (a.includes(7)){ return "boom!"; } else return "there is no 7 in the array.";
 }
