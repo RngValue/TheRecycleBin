@@ -1,3 +1,5 @@
+require "header"
+
 b = [[
 I have granted kids to hell.
 Oh no, not again!]]
