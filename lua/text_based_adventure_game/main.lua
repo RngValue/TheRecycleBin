@@ -65,8 +65,8 @@ function draw_choice(charName, text, choiceOne, choiceTwo, choiceThree, choices,
     string.sub(userInput, 1, 1)
 end
 
-draw_dialog("game", "ahojaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", 0.025)
-draw_dialog("game", "ahojaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", 0.025)
+draw_dialog("game", "helloaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", 0.025)
+draw_dialog("game", "helloaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", 0.025)
 draw_choice("game", "how are you?", "good", "yay", "", 2, 0.025)
 if userInput == "1" then
     draw_dialog("game", "yay", 0.025)
