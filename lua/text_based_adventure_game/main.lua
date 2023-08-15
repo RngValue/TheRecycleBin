@@ -1,4 +1,3 @@
-items = {}
 width = 41
 
 function sleep(n)
@@ -6,8 +5,9 @@ function sleep(n)
     while os.clock() - t <= n do
       -- nothing
     end
-end  
+end
 
+items = {}
 function show_items()
     io.write("#################<Items>#################\n")
     io.write("#\t", type(items[1]), "\t", type(items[2]), "\t", type(items[3]), "\t", type(items[4]), "\t#\n")
@@ -65,6 +65,7 @@ function draw_choice(charName, text, choiceOne, choiceTwo, choiceThree, choices,
     string.sub(userInput, 1, 1)
 end
 
+draw_dialog("game", "hello", 0.025)
 draw_dialog("game", "helloaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", 0.025)
 draw_dialog("game", "helloaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", 0.025)
 draw_choice("game", "how are you?", "good", "yay", "", 2, 0.025)
