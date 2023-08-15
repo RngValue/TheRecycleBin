@@ -1,3 +1,6 @@
+-- Created by RngValue (CursedCodman).
+-- If you wish to use this code, idc, do as you please lol.
+
 width = 41
 
 function sleep(n)
