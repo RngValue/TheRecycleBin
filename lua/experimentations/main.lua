@@ -1,0 +1,1 @@
+io.write("va",type(a),"la")
