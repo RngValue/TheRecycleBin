@@ -2,9 +2,7 @@ width = 41
 
 function sleep(n)
     local t = os.clock()
-    while os.clock() - t <= n do
-      -- nothing
-    end
+    while os.clock() - t <= n do end
 end
 
 items = {}
