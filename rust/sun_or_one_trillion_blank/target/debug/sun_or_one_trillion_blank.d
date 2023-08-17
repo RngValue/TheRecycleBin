@@ -1,0 +1,1 @@
+C:\Users\LENOVO-PC\Documents\Programming\The\ Recycle\ Bin\rust\sun_or_one_trillion_blank\target\debug\sun_or_one_trillion_blank.exe: C:\Users\LENOVO-PC\Documents\Programming\The\ Recycle\ Bin\rust\sun_or_one_trillion_blank\src\main.rs
