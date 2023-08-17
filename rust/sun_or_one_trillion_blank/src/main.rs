@@ -7,12 +7,15 @@ fn main() {
 
     print!("Who's our opponent? > ");
     io::stdout().flush().unwrap();
+
     let mut user_input = String::new();
     io::stdin().read_line(&mut user_input).expect("couldn't read that.");
     user_input = user_input.trim().to_string();
+
     for character in user_input.chars() {
         final_power += character as u32;
     }
+    
     println!("The power of 1 {user_input} is equel to {final_power}.");
     println!("The power of 1 trillion {user_input}s is equel to {final_power} trillion!");
     println!("The power of the sun (for the sake of this project) is {power_of_the_sun} trillion!");
