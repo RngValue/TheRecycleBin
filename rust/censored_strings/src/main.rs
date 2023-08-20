@@ -1,3 +1,4 @@
+//Censored Strings (https://edabit.com/challenge/5S5HBQW6zZp8eH3eL)
 fn uncensor(text: &str, vowels: &str) -> String {
     let mut vowel = 0;
     let mut text_len = 0;
