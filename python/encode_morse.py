@@ -14,10 +14,11 @@ char_to_dots = {
 def encode_morse(text):
     new_text = []
     for i in range(len(text)):
-        new_text += char_to_dots[text[i]]
+        new_text += char_to_dots[text.upper()[i]]
         new_text += " "
     new_text = "".join(new_text)
     return new_text
 
+print(encode_morse("hello there!"))
 print(encode_morse("EDABBIT CHALLENGE"))
 print(encode_morse("HELP ME !"))
