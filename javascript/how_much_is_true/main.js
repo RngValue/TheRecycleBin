@@ -2,7 +2,7 @@
 
 function count_true(booleans) {
     let numberOfTrues = 0;
-    if (booleans == null) booleans = false
+    if (booleans == null) booleans = false;
     for (var i = 0; i < booleans.length; i++) {
         if (booleans[i] == true) numberOfTrues++;
     }
