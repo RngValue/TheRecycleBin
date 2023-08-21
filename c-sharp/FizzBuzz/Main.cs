@@ -1,18 +1,18 @@
 using System; 
 
 public class Program {
-
-  public static void Main(string[] args) {
-    for(int i = 1; i<=100; i++){
-      if (i%3 == 0 && i%5 == 0){
-        Console.WriteLine("FizzBazz");
-      }else if (i%3 == 0){
-        Console.WriteLine("Fizz");
-      }else if (i%5 == 0){
-        Console.WriteLine("Bazz");
-      }else{
-        Console.WriteLine(i);
-      }
+    
+    public static void Main(string[] args) {
+        for(int i = 1; i<=100; i++) {
+            if (i%3 == 0 && i%5 == 0) {
+                Console.WriteLine("FizzBazz");
+            } else if (i%3 == 0) {
+                Console.WriteLine("Fizz");
+            } else if (i%5 == 0) {
+                Console.WriteLine("Bazz");
+            } else {
+                Console.WriteLine(i);
+            }
+        }
     }
-  }
 }
