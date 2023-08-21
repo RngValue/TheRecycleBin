@@ -1,11 +1,12 @@
 //Greater Than the Sum? (https://edabit.com/challenge/uCxezzuDTdN7KaGCi)
 #include <iostream>
+#include <vector>
 
 using std::cout;
 
-bool greater_than_sum(int *numbers, int size) {
+bool greater_than_sum(std::vector<int> numbers) {
     int sum = 0;
-    for (int i = 1; i <= size; i++) {
+    for (int i = 1; i <= numbers.size(); i++) {
         sum += numbers[i-1];
         if (numbers[i] < sum) {
             return false;
@@ -16,9 +17,7 @@ bool greater_than_sum(int *numbers, int size) {
 }
 
 int main(void) {
-    int a[] = {2, 3, 7, 13, 28};
-    cout << greater_than_sum(a, 5) << "\n";
-    int b[] = {1, 2, 4, 6, 13};
-    cout << greater_than_sum(b, 5) << "\n";
+    cout << greater_than_sum({2, 3, 7, 13, 28}) << "\n";
+    cout << greater_than_sum({1, 2, 4, 6, 13}) << "\n";
     return 0;
 }
