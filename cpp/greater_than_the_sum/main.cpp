@@ -3,8 +3,9 @@
 #include <vector>
 
 using std::cout;
+using std::vector;
 
-bool greater_than_sum(std::vector<int> numbers) {
+bool greater_than_sum(vector<int> numbers) {
     int sum = 0;
     for (int i = 1; i <= numbers.size(); i++) {
         sum += numbers[i-1];
