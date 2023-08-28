@@ -1,0 +1,12 @@
+a = 72; print ["%x" % a].pack("H*")                                 #   H
+a += 29; print ["%x" % a].pack("H*")                                #   e
+a += 7; print ["%x" % a].pack("H*"); print ["%x" % a].pack("H*")    #   ll
+a += 3; print ["%x" % a].pack("H*")                                 #   o
+a -= 67; print ["%x" % a].pack("H*")                                #   ,
+a -= 12; print ["%x" % a].pack("H*")                                #   space
+a += 55; print ["%x" % a].pack("H*")                                #   W
+a += 24; print ["%x" % a].pack("H*")                                #   o
+a += 3; print ["%x" % a].pack("H*")                                 #   r
+a -= 6; print ["%x" % a].pack("H*")                                 #   l
+a -= 8; print ["%x" % a].pack("H*")                                 #   d
+a -= 67; puts ["%x" % a].pack("H*")                                 #   !
