@@ -2,7 +2,7 @@
 
 def array_of_multiples (num, length)
 	number = num
-    arrayOfNumbers = []
+    arrayOfNumbers = Array.new()
     for i in 1..length do
         number = i * num
         arrayOfNumbers << number
