@@ -1,3 +1,4 @@
+//"Rock, Paper, Scissors" (https://edabit.com/challenge/MYqnQ3DpPZi9di4iW)
 package main
 
 import "fmt"
