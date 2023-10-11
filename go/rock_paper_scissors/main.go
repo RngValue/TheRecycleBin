@@ -4,7 +4,7 @@ package main
 import "fmt"
 
 func rps(playerOne string, playerTwo string) string {
-  var a string = ""
+  var a string
   if playerOne == playerTwo {
     a = "TIE"
   } else if playerOne == "rock" && playerTwo == "paper" {
