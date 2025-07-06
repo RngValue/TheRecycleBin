@@ -7,3 +7,4 @@ function tree(h) {
 }
 
 console.log(tree(5))
+console.log(tree(0))
