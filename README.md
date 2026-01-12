@@ -118,5 +118,6 @@ also noticed half the projects are leetcode-ah challenges from edabit, will leav
   - who would win? One trillion of... somthing... or THE SUN??
 
 ## Zig
+*zag*
 - [sum-of-vowels](https://github.com/RngValue/TheRecycleBin/tree/master/zig/sum-of-vowels)
   - [Sum of v0w3ls from edabit](https://edabit.com/challenge/EvnxqYiyBN7is2Qxv)
