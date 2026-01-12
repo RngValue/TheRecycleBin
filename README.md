@@ -57,7 +57,7 @@ also noticed half the projects are leetcode-ah challenges from edabit, will leav
 - [cpp-testing](https://github.com/RngValue/TheRecycleBin/tree/master/cpp/cpp-testing)
   - one of the first C++ projects I made (you can tell from the "using namespace std;")
 - [credit-card-number-checker](https://github.com/RngValue/TheRecycleBin/tree/master/cpp/credit-card-number-checker)
-  - Luhn algorithm implementation for checking if a credit card number is obviously not valid
+  - Luhn algorithm implementation for checking if a credit card number is obviously not valid ([a good read about the topic](https://www.groundlabs.com/blog/anatomy-of-a-credit-card))
 - [greater-than-the-sum](https://github.com/RngValue/TheRecycleBin/tree/master/cpp/greater-than-the-sum)
   - [Greater Than the Sum? from edabit](https://edabit.com/challenge/uCxezzuDTdN7KaGCi)
 
